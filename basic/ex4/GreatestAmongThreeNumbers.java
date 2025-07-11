@@ -1,4 +1,4 @@
-package ex4;
+package basic.ex4;
 
 import java.util.Scanner;
 
@@ -19,6 +19,6 @@ public class GreatestAmongThreeNumbers {
         else
             biggestNumber = thirdInt;
         System.out.println("The greatest number among " + firstInt + ", " + secondInt + ", and " + thirdInt + " is: " + biggestNumber);
-
+        scanner.close();
     }
 }

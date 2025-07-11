@@ -10,5 +10,6 @@ public class DivisionofNumbers {
         int lastInt = scanner.nextInt();
         int division = firstInt / lastInt;
         System.out.println("The division of your first number " + firstInt + " by your second number " + lastInt + " is: " + division);
+        scanner.close();
         }
     }

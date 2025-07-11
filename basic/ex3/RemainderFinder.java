@@ -11,5 +11,6 @@ public class RemainderFinder {
         int lastInt = scanner.nextInt();
         int remainder = firstInt % lastInt;
         System.out.println("The remainder of " + firstInt + " divided by " + lastInt + " is: " + remainder);
+        scanner.close();
         }
     }

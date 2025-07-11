@@ -1,4 +1,4 @@
-package ex4;
+package basic.ex4;
 
 import java.util.Scanner;
 
@@ -8,7 +8,6 @@ public class LeapYearCalculator {
         System.out.println("Give me a year, any year.");
         int anyYear = scanner.nextInt();
         scanner.close();
-        int leapYear = 0;
         if (anyYear%4 == 0)
              System.out.println("The year " + anyYear + " is a leap year.");
             else if (anyYear%100==0)
@@ -17,5 +16,6 @@ public class LeapYearCalculator {
                     System.out.println("The year " + anyYear + " is a leap year.");
         if (anyYear%4 != 0)
             System.out.println("The year " + anyYear + " is not a leap year.");
+        scanner.close();
     }
 }

@@ -13,5 +13,6 @@ public class AverageOfThreeNumbers {
         int thirdInt = scanner.nextInt();
         int averageOfThreeNumbers = (firstInt + secondInt + thirdInt)/ 3;
         System.out.println("The average of your first number " + firstInt + ", your second number " + secondInt + ", and your third number " + thirdInt + " is: " + averageOfThreeNumbers);
+        scanner.close();
     }
 }

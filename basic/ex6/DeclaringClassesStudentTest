@@ -1,0 +1,10 @@
+package basic.ex6;
+
+public class StudentTest {
+    public static void main (String[]args) {
+        Student s1 = new Student();
+        void displayInfo() {
+            System.out.println(name + " is " + age + " years old.");
+    }
+        }
+    }

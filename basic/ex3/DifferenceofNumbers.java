@@ -11,5 +11,6 @@ public class DifferenceofNumbers {
         int lastInt = scanner.nextInt();
         int difference = firstInt - lastInt;
         System.out.println("The difference of your first number " + firstInt + " and your second number " + lastInt + " is: " + difference);
+        scanner.close();
     }
 }

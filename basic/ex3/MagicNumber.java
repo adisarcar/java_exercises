@@ -9,5 +9,6 @@ public class MagicNumber {
         int favNumber = scanner.nextInt();
         int magicNumber = (3 * favNumber) - 1;  
         System.out.println("Your magic number is: " + magicNumber);
+        scanner.close();
     }
 }

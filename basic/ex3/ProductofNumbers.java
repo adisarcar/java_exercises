@@ -11,5 +11,6 @@ public class ProductofNumbers {
         int lastInt = scanner.nextInt();
         int product = firstInt * lastInt;
         System.out.println("The product of your first number " + firstInt + " and your second number " + lastInt + " is: " + product);
+        scanner.close();
     }
 }
